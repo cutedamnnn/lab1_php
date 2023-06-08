@@ -1,0 +1,19 @@
+{
+    "name": "study/php-labs",
+    "autoload": {
+        "psr-4": {
+            "Labs\\Lab1\\": "./Lab1"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maks Bartenev",
+            "email": "bartenev.maks@mail.ru"
+        }
+    ],
+    "require": {
+        "symfony/validator": "^6.2",
+        "symfony/finder": "^6.2",
+        "monolog/monolog": "^3.3"
+    }
+}
